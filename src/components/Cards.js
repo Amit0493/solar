@@ -2,43 +2,44 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-function Cards() {
+function Cards(props) {
+  console.log("props", props)
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>{props.displayTitle}</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/products.jpg'
+              text=' LR4-60HPH 370W Mono Perc 120half-cell Black 35mm MC4-EVO2 12Y Warranty (LR4-60HPH-370M)'
+              label='Longi'
+              path='/longi'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/jinko.png'
+              text='Jinko Cheetah 385W PERCMono 72 cell Sliver 40mm MC4 (JKM385M-72)'
+              label='Jinko solar'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/qcell.png'
+              text='QCELLS Q.MAXX 350W Mono 120half-cell Black 32mm MC4 (Q.MAXX- G2-350)'
+              label='Q cells'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/risen.png'
+              text='Risen RSM144-6 400W PERC Mono 144half-cells Silver 40mm PV-SY02 (RSM144-6-400M)'
+              label='Risen'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/suntech.png'
+              text='Suntech Wfhm 330W Mono 120half-cell Black 35mm CABLE01 15Y Warranty (STP330S-A60/Wfhm)'
+              label='Suntech'
               path='/sign-up'
             />
           </ul>

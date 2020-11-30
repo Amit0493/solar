@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join the Adventure newsletter to receive our best vacation deals
         </p>
@@ -24,32 +24,33 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          {/* <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
-          </div>
+          </div> */}
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link >Suite 1203, 1 Queens Rd, Melbourne
+Vic 3004</Link>
+            <Link to='/'>Phone:1300251533</Link>
+            <Link to='/'>Email:info@suncurrent.com.au</Link>
+            {/* <Link to='/'>Sponsorships</Link> */}
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='/' >Home</Link>
+            <Link to='/services'>About</Link>
+            <Link to='/products'>Products</Link>
+            <Link to='/sign-up'>Contact</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
