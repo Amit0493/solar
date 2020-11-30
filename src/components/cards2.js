@@ -14,13 +14,13 @@ function Cards2(props) {
                             src='images/sungrow.png'
                             text='SG3K - D/SG5K - D'
                             label='Sungrow'
-                            path='/longi'
+                            path='/sungrow'
                         />
                         <CardItem
                             src='images/fronis.png'
                             text='Fronius Primo'
                             label='Fronius'
-                            path='/services'
+                            path='/fronious'
                         />
                     </ul>
                     <ul className='cards__items'>
@@ -28,19 +28,19 @@ function Cards2(props) {
                             src='images/goodwe.png'
                             text='DNS Series (Dual-MPPT , Single-Phase)'
                             label='Good we'
-                            path='/services'
+                            path='/goodwe'
                         />
                         <CardItem
                             src='images/huawei.png'
                             text='Smart energy Solutions'
                             label='Huawei'
-                            path='/products'
+                            path='/huawei'
                         />
                         <CardItem
                             src='images/saj.png'
                             text='R5 Series Residential Solar Inverter'
                             label='SAJ'
-                            path='/sign-up'
+                            path='/saj'
                         />
                     </ul>
                 </div>

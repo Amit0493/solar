@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import Footer from "../Footer";
 class AboutUs extends React.Component {
 
   render() {
@@ -23,7 +24,7 @@ class AboutUs extends React.Component {
             </ul>
           </div>
         </div> */}
-        <header className="navbar hero" role="banner">
+        {/* <header className="hero" role="banner">
           <div className="container">
             <div className="navbar-header">
               <a href="#" className="navbar-brand">
@@ -34,7 +35,7 @@ class AboutUs extends React.Component {
               </a>
             </div>
           </div>
-        </header>
+        </header> */}
         <div id="about-main">
           <div className="jumbotron">
             <div className="jumbotron-inner">
@@ -121,6 +122,7 @@ class AboutUs extends React.Component {
             <div className="container-divider" />
           </div>
         </div>
+        <Footer />
       </div>
     )
   }
