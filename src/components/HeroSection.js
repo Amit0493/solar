@@ -7,17 +7,18 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
-      <img style={{ height: "100%", width: "100%" }} className="backImage" src="images/solarBack.png"></img>
+      <img style={{ height: "100%", width: "100%" }} className="backImage" src="images/home.jpg"></img>
       {/* <h1>ADVENTURE AWAITS</h1> */}
       {/* <p>What are you waiting for?</p> */}
       <div className='hero-btns'>
-        <Button
+
+        {/* <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           Get Quote
-        </Button>
+        </Button> */}
         {/* <Button
           className='btns'
           buttonStyle='btn--primary'

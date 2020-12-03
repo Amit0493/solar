@@ -42,8 +42,9 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link >Suite 1203, 1 Queens Rd, Melbourne
 Vic 3004</Link>
-            <Link to='/'>Phone:1300251533</Link>
-            <Link to='/'>Email:info@suncurrent.com.au</Link>
+            <Link to='/'>Phone : 69169754670</Link>
+            <Link to='/'>Email : admin@sunparksolar.com.au</Link>
+            <Link to='/'>ABN :- <br></br> 1300755059</Link>
             {/* <Link to='/'>Sponsorships</Link> */}
           </div>
           <div class='footer-link-items'>
@@ -65,12 +66,11 @@ Vic 3004</Link>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
-            </Link>
+            <div>
+              <img style={{ height: "40px", width: "80px" }} src="images/l.svg"></img>
+            </div>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>SunPark Solar © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

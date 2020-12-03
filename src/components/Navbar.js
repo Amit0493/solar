@@ -32,7 +32,7 @@ function Navbar() {
             {/* TRVL
             <i class='fab fa-typo3' /> */}
             <div>
-              <img style={{ height: "40px", width: "80px" }} src="images/logo.jpg"></img>
+              <img style={{ height: "40px", width: "80px" }} src="images/l.svg"></img>
             </div>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
