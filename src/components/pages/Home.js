@@ -24,6 +24,9 @@ function Home() {
       <div style={{ padding: "18px", fontFamily: "monospace", color: "darkblue" }}>
         We provide the best solar installation.Consult us before any solar installation. We are commited to serve our customers.
       </div>
+      <div style={{ padding: "18px", fontFamily: "monospace", color: "darkblue" }}>
+        We provide the cheapest solar installation. Starts at just <span style={{ color: "green" }}>2000 AUD</span>
+      </div>
       {/* <HeroSectionNew /> */}
       <Cards displayTitle="Check out our solar products!" />
       <Cards2 displayTitle="Check out our invertor products!" />
