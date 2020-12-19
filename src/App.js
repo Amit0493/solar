@@ -16,6 +16,8 @@ import Fronious from './components/fronious';
 import GoodWe from './components/goodwe';
 import Huawei from './components/huawei';
 import Saj from './components/saj';
+import Residential from './components/residentail';
+import Commercial from './components/commercial';
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path='/goodwe' exact component={GoodWe} />
           <Route path='/huawei' exact component={Huawei} />
           <Route path='/saj' exact component={Saj} />
+          <Route path="/residential" exact component={Residential} />
+          <Route path="/commercial" exact component={Commercial} />
         </Switch>
       </Router>
     </>
