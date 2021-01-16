@@ -528,10 +528,10 @@ ul.checkmark li::before {
   bottom: 0;
   max-height: 233px;
   border-bottom-left-radius: 25px;
-  background: #f7a36fd6;
+  background: #2175f33b;
   border-bottom-right-radius: 203px;
   color: white;
-  font-size: 1.4em;
+  font-size: 21px;
     font-weight: 800;
 }
 .residentialCOnatiner{

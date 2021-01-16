@@ -1,24 +1,28 @@
 import React from "react";
-const Content = (props) => {
+const Content2 = (props) => {
     const textCol = "#27476E"
     return (
         <div style={{ padding: '20px' }}>
-            <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }}>Latest products with advanced technology</h3>
+            <div id="infostrip" ><h3 style={{ fontSize: "18px", marginTop: "10px", marginBottom: "10px" }} >Sunpark Solar determines your system size according to your electricity consumption. We evaluate your yearly electricity bills; household needs and then advise best system for your house. </h3>
+            </div>
+            {/* <div id="infostrip" ><h3 style={{ fontSize: "30px", color: '#FFBC0A', textDecoration: "underline", textAlign: "center", marginTop: "24px" }} >Residential Packages </h3>
+            </div> */}
+            <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }}>Governmet rebate</h3>
                 <div style={{ display: "flex" }}>
                     <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/quality.svg' />
-                    <p> We offer latest Tier 1 products available in market.</p>
+                    <p>Sunpark solar provides your business all the incentives available by the government.</p>
                 </div>
             </div>
-            <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }}>CEC approved member</h3>
+            <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }}>Financial benefit</h3>
                 <div style={{ display: "flex" }}>
                     <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/like.svg' />
-                    <p> Sunpark Solar is a reliable solar provider. We are a member of clean energy council and follow all guidelines while installing a system.</p>
+                    <p> Recover your system cost within 3- 5 years and save yourself from rising electricity rates. </p>
                 </div>
             </div>
-            <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }} >25 years guaranteed Performance</h3>
+            <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }} >Reduce carbon footprint</h3>
                 <div style={{ display: "flex" }}>
                     <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/perf.svg' />
-                    <p> Sunpark Solar offers Tier 1 products that comes with 25 year of warranty.</p>
+                    <p> Contribute to planet’s wellbeing.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }} >Flexible payment option available</h3>
@@ -33,9 +37,9 @@ const Content = (props) => {
                     <p> Sunpark Solar has a dedicated line to answer all your queries.</p>
                 </div>
             </div>
-            <div id="infostrip" ><h3 style={{ fontSize: "30px", color: '#FFBC0A', textDecoration: "underline", textAlign: "center", marginTop: "24px" }} >Residential Packages </h3>
+            <div id="infostrip" ><h3 style={{ fontSize: "30px", color: '#30B643', textDecoration: "underline", textAlign: "center", marginTop: "24px" }} >Commercial packages </h3>
             </div>
-            <div id="infostrip" ><h3 style={{ fontSize: "18px", marginTop: "10px" }} >Sunpark Solar determines your system size according to your electricity consumption. We evaluate your yearly electricity bills; household needs and then advise best system for your house. </h3>
+            <div id="infostrip" ><h3 style={{ fontSize: "18px", marginTop: "10px" }} >Sunpark Solar assess your electricity usage and offers you a solution that works best for your business and with the ongoing government rebates your saving starts from day 1. </h3>
             </div>
 
             {/* <div id="infostrip" style={{ background: '#7d5056f7' }}><h1>CEC approved installer<hr /></h1>
@@ -58,4 +62,4 @@ const Content = (props) => {
     )
 }
 
-export default Content;
+export default Content2;
