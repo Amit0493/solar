@@ -5,7 +5,7 @@ class Suntech extends React.Component {
     downloadDetail = () => {
         console.log(" download pff ");
         var link = document.createElement('a');
-        link.href = 'http://localhost:3000/images/price.pdf';
+        link.href = 'images/price.pdf';
         link.download = 'file.pdf';
         link.dispatchEvent(new MouseEvent('click'));
     }
