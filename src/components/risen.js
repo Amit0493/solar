@@ -1,13 +1,26 @@
 import React from 'react';
 import Footer from "./Footer";
 class Risen extends React.Component {
+    downloadDetail = () => {
+        console.log(" download pff ");
+        var link = document.createElement('a');
+        link.href = 'http://localhost:3000/images/price.pdf';
+        link.download = 'file.pdf';
+        link.dispatchEvent(new MouseEvent('click'));
+    }
 
     render() {
         return (
             <React.Fragment>
                 <div style={{ padding: "20px" }}>
-                    <div>
+                    {/* <div>
                         <img height="400px" width="100%" src='images/risen.png' />
+                    </div> */}
+                    <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap" }}>
+                        <img className="productImage" height="400px" width="50%" src='images/risen.png' />
+                        <div className="productDownloadBtn" style={{ width: "45%", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                            <button onClick={this.downloadDetail}> Download Pdf</button>
+                        </div>
                     </div>
                     <div style={{ marginTop: "20px" }}>
                         <p>

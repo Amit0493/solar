@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from "./Footer";
 import Content2 from "./content2";
+import ProductsCourousel from "./productCourousel";
 class Residential extends React.Component {
 
     render() {
@@ -83,6 +84,7 @@ class Residential extends React.Component {
                         </tbody>
                     </table>
                 </div>
+                <ProductsCourousel></ProductsCourousel>
                 <Footer />
             </React.Fragment>
         )

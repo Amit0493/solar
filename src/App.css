@@ -2,7 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: 'system-ui';
 }
 
 .home,
@@ -550,4 +551,27 @@ ul.checkmark li::before {
 }
 .priceCOnatiner h2,h4{
 padding-left: 10px;
+}
+
+.marquee{
+  -webkit-marquee: auto medium infinite scroll normal;
+  overflow-x: -webkit-marquee;
+}
+
+.rcs_slideCon .itemWrapper img{
+  width: 100% !important;
+}
+
+
+.productImage{
+  /* width: 100%; */
+}
+
+@media (max-width: 640px) {
+  .productImage{
+    width: 100%;
+  }
+  .productDownloadBtn{
+    width: 100%;
+  }
 }
