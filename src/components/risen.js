@@ -4,8 +4,8 @@ class Risen extends React.Component {
     downloadDetail = () => {
         console.log(" download pff ");
         var link = document.createElement('a');
-        link.href = 'images/price.pdf';
-        link.download = 'file.pdf';
+        link.href = 'images/risen2.pdf';
+        link.download = 'risen.pdf';
         link.dispatchEvent(new MouseEvent('click'));
     }
 

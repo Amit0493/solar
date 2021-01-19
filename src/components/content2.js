@@ -9,32 +9,32 @@ const Content2 = (props) => {
             </div> */}
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }}>Governmet rebate</h3>
                 <div style={{ display: "flex" }}>
-                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/quality.svg' />
-                    <p>Sunpark solar provides your business all the incentives available by the government.</p>
+                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/cash.png' />
+                    <p className="centerParagraph" >Sunpark solar provides your business all the incentives available by the government.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }}>Financial benefit</h3>
                 <div style={{ display: "flex" }}>
-                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/like.svg' />
-                    <p> Recover your system cost within 3- 5 years and save yourself from rising electricity rates. </p>
+                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/finance.png' />
+                    <p className="centerParagraph" > Recover your system cost within 3- 5 years and save yourself from rising electricity rates. </p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }} >Reduce carbon footprint</h3>
                 <div style={{ display: "flex" }}>
-                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/perf.svg' />
-                    <p> Contribute to planet’s wellbeing.</p>
+                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/household.png' />
+                    <p className="centerParagraph" > Contribute to planet’s wellbeing.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }} >Flexible payment option available</h3>
                 <div style={{ display: "flex" }}>
-                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/perf.svg' />
-                    <p> No upfront cost, No problem. Sunpark Solar offers payment plans starting from $0 deposit.</p>
+                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/money.png' />
+                    <p className="centerParagraph" > No upfront cost, No problem. Sunpark Solar offers payment plans starting from $0 deposit.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }} >Expert helpline </h3>
                 <div style={{ display: "flex" }}>
-                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/perf.svg' />
-                    <p> Sunpark Solar has a dedicated line to answer all your queries.</p>
+                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/phone-call.png' />
+                    <p className="centerParagraph" > Sunpark Solar has a dedicated line to answer all your queries.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ fontSize: "30px", color: '#30B643', textDecoration: "underline", textAlign: "center", marginTop: "24px" }} >Commercial packages </h3>

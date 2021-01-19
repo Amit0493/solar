@@ -5,8 +5,8 @@ class Saj extends React.Component {
     downloadDetail = () => {
         console.log(" download pff ");
         var link = document.createElement('a');
-        link.href = 'images/price.pdf';
-        link.download = 'file.pdf';
+        link.href = 'images/saj2.pdf';
+        link.download = 'saj.pdf';
         link.dispatchEvent(new MouseEvent('click'));
     }
 

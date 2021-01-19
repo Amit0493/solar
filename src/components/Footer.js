@@ -4,6 +4,11 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+  const openTab = (link) => {
+    window.open(link);
+  }
+
+
   return (
     <div className='footer-container'>
       {/* <section className='footer-subscription'>
@@ -40,15 +45,15 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link >Suite 1203, 1 Queens Rd, Melbourne
-Vic 3004</Link>
-            <Link to='/'>Phone : 69169754670</Link>
+            <Link >24 Elkedra Way, Cranbourne North, Vic 3977</Link>
+            <Link >30 Snow Wood Avenue Ellenbrook WA 6069</Link>
+            <Link to='/'>Phone : 1300755059</Link>
             <Link to='/'>Email : admin@sunparksolar.com.au</Link>
-            <Link to='/'>ABN :- <br></br> 1300755059</Link>
+            <Link to='/'>ABN :- <br></br> 69169754670</Link>
             {/* <Link to='/'>Sponsorships</Link> */}
           </div>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
+            <h2>Important Links</h2>
             <Link to='/' >Home</Link>
             <Link to='/services'>About</Link>
             <Link to='/products'>Products</Link>
@@ -56,10 +61,10 @@ Vic 3004</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link onClick={() => { openTab("https://www.instagram.com/sunparksolar/?igshid=clem647dss7m") }} to='/'>Instagram</Link>
+            <Link onClick={() => { openTab("https://www.facebook.com/sunparksolar") }} to='/'>Facebook</Link>
+            {/* <Link to='/'>Youtube</Link> */}
+            {/* <Link to='/'>Twitter</Link> */}
           </div>
         </div>
       </div>
@@ -75,7 +80,8 @@ Vic 3004</Link>
             <Link
               class='social-icon-link facebook'
               to='/'
-              target='_blank'
+              onClick={() => { openTab("https://www.facebook.com/sunparksolar") }}
+              // target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
@@ -83,12 +89,13 @@ Vic 3004</Link>
             <Link
               class='social-icon-link instagram'
               to='/'
-              target='_blank'
+              onClick={() => { openTab("https://www.instagram.com/sunparksolar/?igshid=clem647dss7m") }}
+              // target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
             </Link>
-            <Link
+            {/* <Link
               class='social-icon-link youtube'
               to='/'
               target='_blank'
@@ -103,15 +110,15 @@ Vic 3004</Link>
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               class='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

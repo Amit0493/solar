@@ -6,31 +6,31 @@ const Content = (props) => {
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }}>Latest products with advanced technology</h3>
                 <div style={{ display: "flex" }}>
                     <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/quality.svg' />
-                    <p> We offer latest Tier 1 products available in market.</p>
+                    <p className="centerParagraph" > We offer latest Tier 1 products available in market.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }}>CEC approved member</h3>
                 <div style={{ display: "flex" }}>
-                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/like.svg' />
-                    <p> Sunpark Solar is a reliable solar provider. We are a member of clean energy council and follow all guidelines while installing a system.</p>
+                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/cec.jpg' />
+                    <p className="centerParagraph" > Sunpark Solar is a reliable solar provider. We are a member of clean energy council and follow all guidelines while installing a system.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }} >25 years guaranteed Performance</h3>
                 <div style={{ display: "flex" }}>
-                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/perf.svg' />
-                    <p> Sunpark Solar offers Tier 1 products that comes with 25 year of warranty.</p>
+                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/milli.png' />
+                    <p className="centerParagraph" > Sunpark Solar offers Tier 1 products that comes with 25 year of warranty.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }} >Flexible payment option available</h3>
                 <div style={{ display: "flex" }}>
-                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/perf.svg' />
-                    <p> No upfront cost, No problem. Sunpark Solar offers payment plans starting from $0 deposit.</p>
+                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/money.png' />
+                    <p className="centerParagraph" > No upfront cost, No problem. Sunpark Solar offers payment plans starting from $0 deposit.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ color: textCol, textDecoration: "underline" }} >Expert helpline </h3>
                 <div style={{ display: "flex" }}>
-                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/perf.svg' />
-                    <p> Sunpark Solar has a dedicated line to answer all your queries.</p>
+                    <img style={{ height: "40px", width: "40px", marginRight: "10px" }} src='images/phone-call.png' />
+                    <p className="centerParagraph" > Sunpark Solar has a dedicated line to answer all your queries.</p>
                 </div>
             </div>
             <div id="infostrip" ><h3 style={{ fontSize: "30px", color: '#FFBC0A', textDecoration: "underline", textAlign: "center", marginTop: "24px" }} >Residential Packages </h3>

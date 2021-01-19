@@ -4,8 +4,8 @@ class GoodWe extends React.Component {
     downloadDetail = () => {
         console.log(" download pff ");
         var link = document.createElement('a');
-        link.href = 'images/price.pdf';
-        link.download = 'file.pdf';
+        link.href = 'images/goodwe2.pdf';
+        link.download = 'goodwe.pdf';
         link.dispatchEvent(new MouseEvent('click'));
     }
 

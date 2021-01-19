@@ -5,8 +5,8 @@ class Fronious extends React.Component {
     downloadDetail = () => {
         console.log(" download pff ");
         var link = document.createElement('a');
-        link.href = 'images/price.pdf';
-        link.download = 'file.pdf';
+        link.href = 'images/fronius2.pdf';
+        link.download = 'fronius.pdf';
         link.dispatchEvent(new MouseEvent('click'));
     }
 

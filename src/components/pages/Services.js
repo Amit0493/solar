@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Footer from "../Footer";
+import AboutProcess from "./aboutProcess";
 class AboutUs extends React.Component {
 
   render() {
@@ -50,19 +51,20 @@ class AboutUs extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="img-layer-container">
-              {/* <div className="team-image" id="team-image">
+            {/* <div className="img-layer-container"> */}
+            {/* <div className="team-image" id="team-image">
                 <img src="images/SolarS.jpg" />
               </div> */}
-              <div className="circles-container">
+            {/* <div className="circles-container">
                 <div className="img-1">
                   <img src="https://apimatic.io/img/theme/aboutUs/Circles-1-1.svg" />
                 </div>
                 <div className="img-2">
                   <img src="https://apimatic.io/img/theme/aboutUs/Circles-2-1.svg" />
                 </div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
+            <AboutProcess></AboutProcess>
           </div>
           <div className="story-container">
             {/* <div className="need-for-dx-container">
