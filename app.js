@@ -1,9 +1,12 @@
 const express = require('express')
 const app = express()
-const port = 3005
+const port = 3005;
+const path = require('path');
+
+app.use('/static', express.static(path.join(__dirname, 'build')))
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.sendFile(path.join(__dirname + '/build/index.html'));
 })
 
 app.listen(port, () => {
