@@ -16,6 +16,13 @@ app.get('/', (req, res) => {
     // res.send(" hello from your new server");
 })
 
+app.post('/save', (req, res) => {
+    console.log(" the request reached here with the credentials", req.body);
+    res.json({ "name": "amit" });
+
+})
+
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
