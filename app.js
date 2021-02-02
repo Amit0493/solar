@@ -6,7 +6,8 @@ const path = require('path');
 app.use('/static', express.static(path.join(__dirname, 'build')))
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname + '/build/index.html'));
+    // res.sendFile(path.join(__dirname + '/build/index.html'));
+    res.send(" hello from your new server");
 })
 
 app.listen(port, () => {
