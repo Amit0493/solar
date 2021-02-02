@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/build/index.html'));
     // res.send(" hello from your new server");
 })
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname + '/build/index.html'));
+    // res.send(" hello from your new server");
+})
 
 app.post('/save', (req, res) => {
     console.log(" the request reached here with the credentials", req.body);
