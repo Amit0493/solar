@@ -31,8 +31,9 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             {/* TRVL
             <i class='fab fa-typo3' /> */}
-            <div>
-              <img style={{ height: "40px", width: "80px" }} src="images/l.svg"></img>
+            <div className="logoParentDiv">
+              <img style={{ height: "40px", width: "50px" }} src="images/newlogo.jpeg"></img>
+              <span>sunpark Solar</span>
             </div>
           </Link>
           <div className='menu-icon' onClick={handleClick}>

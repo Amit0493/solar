@@ -1184,3 +1184,13 @@ textarea.input1 + .shadow-input1 {
   background: #192702;
   color: white;
 }
+
+.logoParentDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoParentDiv span{
+  font-size: 14px;
+}

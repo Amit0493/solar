@@ -71,8 +71,9 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <div>
-              <img style={{ height: "40px", width: "80px" }} src="images/l.svg"></img>
+            <div className="logoParentDiv">
+              <img style={{ height: "40px", width: "50px" }} src="images/newlogo.jpeg"></img>
+              {/* <span>sunpark Solar</span> */}
             </div>
           </div>
           <small class='website-rights'>SunPark Solar © 2020</small>
