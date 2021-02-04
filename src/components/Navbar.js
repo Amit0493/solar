@@ -36,6 +36,15 @@ function Navbar() {
               <span>sunpark Solar</span>
             </div>
           </Link>
+          <div className="callNowHome">
+            <div>
+              <img style={{ height: "40px", width: "50px" }} src="images/call.svg"></img>
+            </div>
+            <div>
+              <p>Call our solar specialist</p>
+              <p>1300755059 </p>
+            </div>
+          </div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

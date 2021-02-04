@@ -208,7 +208,7 @@
 }
 @media (max-width: 640px) {
   #about-main .jumbotron {
-    height: 300px !important;
+    height: 448px !important;
   }
   #about-main .jumbotron .jumbotron-inner {
     max-width: 550px;
@@ -1073,6 +1073,7 @@ textarea.input1 + .shadow-input1 {
 .steps li.first div span:nth-child(4) {
   background: white;
   border-color: #484041;
+  display: none;
 }
 .steps li.first div span:nth-child(5) {
   border-left-color: #484041;
@@ -1097,6 +1098,7 @@ textarea.input1 + .shadow-input1 {
 .steps li.second div span:nth-child(4) {
   background: white;
   border-color: #434371;
+  display: none;
 }
 .steps li.second div span:nth-child(5) {
   border-left-color: #434371;
@@ -1122,6 +1124,8 @@ textarea.input1 + .shadow-input1 {
 .steps li.third div span:nth-child(4) {
   background: white;
   border-color: #79AEA3;
+  display: none;
+
 }
 .steps li.third div span:nth-child(5) {
   border-left-color: #79AEA3;
@@ -1148,6 +1152,7 @@ textarea.input1 + .shadow-input1 {
 .steps li.fourth div span:nth-child(4) {
   background: white;
   border-color: #0D6E2F;
+  display: none;
 }
 .steps li.fourth div span:nth-child(5) {
   border-left-color: #0D6E2F;
@@ -1173,6 +1178,7 @@ textarea.input1 + .shadow-input1 {
 .steps li.fifth div span:nth-child(4) {
   background: white;
   border-color: #192702;
+  display: none;
 }
 .steps li.fifth div span:nth-child(5) {
   border-left-color: #192702;
@@ -1193,4 +1199,34 @@ textarea.input1 + .shadow-input1 {
 
 .logoParentDiv span{
   font-size: 14px;
+}
+
+.homeTable{
+  margin: 40px 20px;
+}
+
+.callNowHome{
+  display: flex;
+  color: white;
+}
+
+@media (max-width: 1024px){
+  .callNowHome{
+    display: none;
+  }
+}
+.callNowImage{
+  display: flex;
+  color: white;
+  display: none;
+}
+
+@media (max-width: 1024px){
+  .callNowImage{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: bisque;
+  }
 }

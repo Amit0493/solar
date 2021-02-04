@@ -28,6 +28,15 @@ function HeroSection() {
           WATCH TRAILER <i className='far fa-play-circle' />
         </Button> */}
       </div>
+      <div className=" callNowImage">
+        <div>
+          <img style={{ height: "40px", width: "50px" }} src="images/call.svg"></img>
+        </div>
+        <div>
+          <p>Call our solar specialist</p>
+          <p>1300755059 </p>
+        </div>
+      </div>
     </div>
   );
 }
